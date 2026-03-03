@@ -4,5 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def instant():
-    return "Live from production"
-
+    return "Live from production!"

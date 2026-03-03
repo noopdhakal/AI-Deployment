@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "week1/day1.py",
+            "src": "instant.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "day1.py"
+            "dest": "instant.py"
         }
     ]
 }
